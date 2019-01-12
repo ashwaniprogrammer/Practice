@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeWorkActivity">
+
+    <Button
+        android:id="@+id/a"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="A"
+        app:layout_constraintRight_toLeftOf="@+id/b"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="B"
+        app:layout_constraintLeft_toRightOf="@+id/a"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/c"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="C"
+        app:layout_constraintTop_toBottomOf="@+id/a"
+        app:layout_constraintBottom_toBottomOf="@+id/a"
+        app:layout_constraintRight_toLeftOf="@+id/d"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/d"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="D"
+        app:layout_constraintBottom_toBottomOf="@+id/b"
+        app:layout_constraintTop_toBottomOf="@+id/b"
+        app:layout_constraintLeft_toRightOf="@+id/c"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/e"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="E"
+        app:layout_constraintTop_toBottomOf="@+id/c"
+        app:layout_constraintBottom_toBottomOf="@+id/c"
+        app:layout_constraintRight_toLeftOf="@+id/d"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/f"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="F"
+        app:layout_constraintBottom_toBottomOf="@+id/d"
+        app:layout_constraintTop_toBottomOf="@+id/d"
+        app:layout_constraintLeft_toRightOf="@+id/e"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/g"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="G"
+        app:layout_constraintTop_toBottomOf="@+id/e"
+        app:layout_constraintBottom_toBottomOf="@+id/e"
+        app:layout_constraintRight_toLeftOf="@+id/h"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/h"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="H"
+        app:layout_constraintBottom_toBottomOf="@id/f"
+        app:layout_constraintTop_toBottomOf="@+id/f"
+        app:layout_constraintLeft_toRightOf="@+id/g"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+</android.support.constraint.ConstraintLayout>
