@@ -8,11 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="app_style" parent="Base.TextAppearance.AppCompat.Headline">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#000</item>
-        <item name="android:layout_marginTop"></item>
+    <style name="mobile">Enter your Mobile Number</style>
+
+    <style name="name">Enter your Name</style>
+
+    <style name="password">Enter Your Password</style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 
 </resources>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Practice</string>
+    <string name="revisionapp">REVISION APP</string>
+    <string name="username">Enter Your Username</string>
+    <string name="password">Enter Your Password</string>
+    <string name="mobile">Enter Your Mobile Number</string>
+    <string name="name">Enter Your Name</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="title_activity_advance_uiwidgets">AdvanceUIWidgetsActivity</string>
 </resources>
